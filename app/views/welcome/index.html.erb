@@ -5,15 +5,34 @@
 			<a href="index.html" id="logo">Jamaluna</a>
   		<nav>
   			<ul>
-  			    <li><a href="vlogs.html">Channel</a></li>
-  				<li><a href="#">Facebook</a></li>
-  				<li><a href="#">Instagram</a></li>
 
-         <li><a href="#">Login</a></li>
-         <li><a href="#">Sign up</a></li>
+         <% unless user_signed_in? %>
+
+  			      <li><a href="vlogs.html">Channel</a></li>
+  			    	<li><a href="#">Facebook</a></li>
+  				    <li><a href="#">Instagram</a></li>
+
+              <li><%= link_to "Sign In", new_user_session_path %></li>
+              <li><%= link_to "Sign Up", new_user_registration_path %></li>
+
+              <li><a href="#">Help</a></li>
+
+        <% else %>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="vlogs.html">Channel</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+             <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+             <li><a href="#">Help</a></li>
+        <% end %>
 
 
-  				<li><a href="#">Help</a></li>
+
+
+
+
+
+
   			</ul>
   		</nav>
 
