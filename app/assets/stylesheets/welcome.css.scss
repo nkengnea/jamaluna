@@ -1,0 +1,177 @@
+
+
+
+
+#breadcrumbs{
+
+  padding:  1rem 0;
+  text-align: center;
+
+  border-bottom:  1px solid lighten(#22292e, 75%);
+}
+
+#breadcrumbs p:last-child {
+	border-bottom: none;
+}
+
+#breadcrumbs  p {
+
+  width: 75%;
+  font-size: 2rem;
+  line-height: 1.75;
+  margin: 0 auto 2rem auto;
+    color: lighten(#22292e,45%);
+
+  $color: red;
+
+  $light: lighten($color,15%);
+
+}
+
+#breadcrumbs .subscribe_link{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: green;
+  display: inline;
+  background: #d2674e;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+  margin: 0 .5rem;
+  text-decoration: none;
+
+}
+
+
+#breadcrumbs .subscribe_links{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  display: inline;
+  background: blue;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+  margin: 0 .5rem;
+  text-decoration: none;
+
+}
+
+
+#breadcrumbs .subscribe_linkss{
+  text-decoration: none;
+  display: inline;
+  margin-left: 2.5rem;
+
+}
+
+#breadcrumbs ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#breadcrumbs ul li {
+
+  float: left;
+  width: 200px;
+  height: 40px;
+
+  opacity: .8;
+  text-align: center;
+  font-size:  20px;
+  margin-right: 2px;
+  padding-left: 40px;
+
+}
+
+
+
+#breadcrumbs ul li a {
+  text-decoration:  none;
+  color: black;
+  display:  block;
+}
+
+#breadcrumbs ul  li a:hover {
+  background-color: red;
+}
+
+#breadcrumbs ul li ul li {
+  display: none;
+}
+
+#breadcrumbs ul li:hover ul li {
+  display: block;
+}
+
+
+
+
+
+
+
+
+#breadcrumbss  p {
+
+  width: 75%;
+  font-size: 2rem;
+  line-height: 1.75;
+  margin: 0 auto 2rem auto;
+    color: lighten(#22292e,45%);
+
+  $color: blue;
+
+  $light: lighten($color,15%);
+
+}
+
+#breadcrumbss .subscribe_link{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: green;
+  display: inline;
+  background: #d2674e;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+  margin: 0 .5rem;
+  text-decoration: none;
+
+}
+
+
+#breadcrumbss .subscribe_links{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  display: inline;
+  background: blue;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+  margin: 0 .5rem;
+  text-decoration: none;
+
+}
+
+
+#breadcrumbss .subscribe_linkss{
+  text-decoration: none;
+  display: inline;
+  margin-left: 2.5rem;
+
+}
+
+
+#breadcrumbss{
+
+  padding:  1rem 0;
+  text-align: center;
+
+
+}
